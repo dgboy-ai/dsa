@@ -85,16 +85,7 @@
         "kind": 5,
         "importPath": "programs.day 6.q2",
         "description": "programs.day 6.q2",
-        "peekOfCode": "n = int(input(\"Enter a number: \"))\nsum = 0\ncount_prime=0\ncount_com=0\nwhile n>0:\n    num = n%10\n    if num==2:\n        count_prime+=1\n    else:\n        for i in range(2,num):",
-        "detail": "programs.day 6.q2",
-        "documentation": {}
-    },
-    {
-        "label": "sum",
-        "kind": 5,
-        "importPath": "programs.day 6.q2",
-        "description": "programs.day 6.q2",
-        "peekOfCode": "sum = 0\ncount_prime=0\ncount_com=0\nwhile n>0:\n    num = n%10\n    if num==2:\n        count_prime+=1\n    else:\n        for i in range(2,num):\n            if num%i==0:",
+        "peekOfCode": "n = int(input(\"Enter a number: \"))\ncount_prime=0\ncount_com=0\nwhile n>0:\n    num = n%10\n    if num==2:\n        count_prime+=1\n    else:\n        for i in range(2,num):\n            if num%i==0:",
         "detail": "programs.day 6.q2",
         "documentation": {}
     },
