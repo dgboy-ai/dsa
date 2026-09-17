@@ -1,0 +1,245 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "kind": 5,
+        "importPath": "programs.day 5.p5_02",
+        "description": "programs.day 5.p5_02",
+        "peekOfCode": "letter = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\nfor i in letter:\n    print(i,end=\" \")",
+        "detail": "programs.day 5.p5_02",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "kind": 5,
+        "importPath": "programs.day 5.p5_03",
+        "description": "programs.day 5.p5_03",
+        "peekOfCode": "letter = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\nfor i in range(len(letter)-1,-1,-1):\n    print(letter[i],end=\" \")",
+        "detail": "programs.day 5.p5_03",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "programs.day 5.p5_05",
+        "description": "programs.day 5.p5_05",
+        "peekOfCode": "n = int(input(\"Enter n range: \"))\nsum=0\nfor i in range(n+1):\n    sqr = i**2\n    sum=sum+sqr\nprint(sum)",
+        "detail": "programs.day 5.p5_05",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "programs.day 5.p5_06",
+        "description": "programs.day 5.p5_06",
+        "peekOfCode": "n = int(input(\"Enter n range: \"))\nsum=0\nfor i in range(n+1):\n    sqr = i**3\n    sum=sum+sqr\nprint(sum)",
+        "detail": "programs.day 5.p5_06",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "programs.day 5.p5_07",
+        "description": "programs.day 5.p5_07",
+        "peekOfCode": "n = int(input('Enter nth Range: '))\nsum = 0\nprint(0,end=\" \")\nprint(1,end=\" \")\nfor i in range(1,n+1):\n    sum = sum+i+i-1\n    print(sum,end=\" \")\n# print(\"\\n\")\nprint(\"\\n\"\"=========================\")\nprint(f\"fibonacci number of nth term is : {sum}\")",
+        "detail": "programs.day 5.p5_07",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "programs.day 5.p5_07",
+        "description": "programs.day 5.p5_07",
+        "peekOfCode": "sum = 0\nprint(0,end=\" \")\nprint(1,end=\" \")\nfor i in range(1,n+1):\n    sum = sum+i+i-1\n    print(sum,end=\" \")\n# print(\"\\n\")\nprint(\"\\n\"\"=========================\")\nprint(f\"fibonacci number of nth term is : {sum}\")",
+        "detail": "programs.day 5.p5_07",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "kind": 5,
+        "importPath": "programs.day 6.day6_4",
+        "description": "programs.day 6.day6_4",
+        "peekOfCode": "letter = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\nfor i in range(5):\n    for j in range(5,11):\n        print(letter[j],end=\" \")\n    print()",
+        "detail": "programs.day 6.day6_4",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "programs.day 6.q",
+        "description": "programs.day 6.q",
+        "peekOfCode": "x = int(input(\"Enter range: \"))\nif x<2:\n    print('invalid')\nelse:\n    for i in range(1,x+1):\n        for j in range(2,i):\n            if i%j==0:\n                print(i)\n                break\n            else:",
+        "detail": "programs.day 6.q",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "programs.day 6.q2",
+        "description": "programs.day 6.q2",
+        "peekOfCode": "n = int(input(\"Enter a number: \"))\nsum = 0\ncount_prime=0\ncount_com=0\nwhile n>0:\n    num = n%10\n    if num==2:\n        count_prime+=1\n    else:\n        for i in range(2,num):",
+        "detail": "programs.day 6.q2",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "programs.day 6.q2",
+        "description": "programs.day 6.q2",
+        "peekOfCode": "sum = 0\ncount_prime=0\ncount_com=0\nwhile n>0:\n    num = n%10\n    if num==2:\n        count_prime+=1\n    else:\n        for i in range(2,num):\n            if num%i==0:",
+        "detail": "programs.day 6.q2",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "programs.sorting.insertion",
+        "description": "programs.sorting.insertion",
+        "peekOfCode": "a = []\nsize = int(input(\"Enter the size of the array: \"))\nfor i in range(size):\n    element = int(input(\"Enter Elements: \"))\n    a.append(element)\nfor i in range(1,len(a)):\n    for j in range(i):\n        if a[i]<a[j]:\n            a[i],a[j]=a[j],a[i]\n        else:",
+        "detail": "programs.sorting.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "size",
+        "kind": 5,
+        "importPath": "programs.sorting.insertion",
+        "description": "programs.sorting.insertion",
+        "peekOfCode": "size = int(input(\"Enter the size of the array: \"))\nfor i in range(size):\n    element = int(input(\"Enter Elements: \"))\n    a.append(element)\nfor i in range(1,len(a)):\n    for j in range(i):\n        if a[i]<a[j]:\n            a[i],a[j]=a[j],a[i]\n        else:\n            continue",
+        "detail": "programs.sorting.insertion",
+        "documentation": {}
+    },
+    {
+        "label": "size",
+        "kind": 5,
+        "importPath": "programs.sorting.selection",
+        "description": "programs.sorting.selection",
+        "peekOfCode": "size = int(input())\nfor i in range(size):\n    element = int(input(\"Enter Elements: \"))\n    a.append(element)\nfor i in range(len(a)-1):\n    for j in range(i+1,len(a)):\n        if a[i] > a[j]:\n            a[i],a[j] = a[j],a[i]\n        else:\n            continue",
+        "detail": "programs.sorting.selection",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "programs.p01",
+        "description": "programs.p01",
+        "peekOfCode": "a = [10,3,5,9,2]\ntarget = 12\noutput_array=[]\nfound= False\nfor i in range(len(a)):\n    if not found:\n        element1 = a[i] \n        for j in range(i+1,len(a)):\n            if a[i]+a[j]==target:\n                output_array.append(i)",
+        "detail": "programs.p01",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "programs.p01",
+        "description": "programs.p01",
+        "peekOfCode": "target = 12\noutput_array=[]\nfound= False\nfor i in range(len(a)):\n    if not found:\n        element1 = a[i] \n        for j in range(i+1,len(a)):\n            if a[i]+a[j]==target:\n                output_array.append(i)\n                output_array.append(j)",
+        "detail": "programs.p01",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "programs.p03",
+        "description": "programs.p03",
+        "peekOfCode": "a = \"madamm\"\nnum=1\ncount = 0\nfor i in range(len(a)//2):\n    if a[i] == a[len(a)-num]:\n        count +=1\n    num=num+1\nif count==(len(a)//2):\n    print(\"Palindrome String\")\nelse:",
+        "detail": "programs.p03",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "programs.p03",
+        "description": "programs.p03",
+        "peekOfCode": "count = 0\nfor i in range(len(a)//2):\n    if a[i] == a[len(a)-num]:\n        count +=1\n    num=num+1\nif count==(len(a)//2):\n    print(\"Palindrome String\")\nelse:\n    print('Not Palindrome')    \n## chatgpt hint for optimizing ",
+        "detail": "programs.p03",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "programs.p03",
+        "description": "programs.p03",
+        "peekOfCode": "a = \"madam\"\nnum=1\ncount = 0\npalindrome = True\nfor i in range(len(a)//2):\n    if a[i] == a[len(a)-num]:\n        palindrome=True\n    else:\n        palindrome = False\n        break",
+        "detail": "programs.p03",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "programs.p03",
+        "description": "programs.p03",
+        "peekOfCode": "count = 0\npalindrome = True\nfor i in range(len(a)//2):\n    if a[i] == a[len(a)-num]:\n        palindrome=True\n    else:\n        palindrome = False\n        break\n    num=num+1\nif palindrome:",
+        "detail": "programs.p03",
+        "documentation": {}
+    },
+    {
+        "label": "palindrome",
+        "kind": 5,
+        "importPath": "programs.p03",
+        "description": "programs.p03",
+        "peekOfCode": "palindrome = True\nfor i in range(len(a)//2):\n    if a[i] == a[len(a)-num]:\n        palindrome=True\n    else:\n        palindrome = False\n        break\n    num=num+1\nif palindrome:\n    print(\"Palindrome String\")",
+        "detail": "programs.p03",
+        "documentation": {}
+    },
+    {
+        "label": "input",
+        "kind": 5,
+        "importPath": "programs.p04",
+        "description": "programs.p04",
+        "peekOfCode": "input = sys.stdin.readline\nscore , draw, no = map(int,input().split())\nscoring = score*3+draw\nprint(scoring)",
+        "detail": "programs.p04",
+        "documentation": {}
+    },
+    {
+        "label": "scoring",
+        "kind": 5,
+        "importPath": "programs.p04",
+        "description": "programs.p04",
+        "peekOfCode": "scoring = score*3+draw\nprint(scoring)",
+        "detail": "programs.p04",
+        "documentation": {}
+    },
+    {
+        "label": "input",
+        "kind": 5,
+        "importPath": "programs.p05",
+        "description": "programs.p05",
+        "peekOfCode": "input = sys.stdin.readline\nw = int(input())\nprint(\"YES\" if w%2==0 and w>2 else \"NO\")",
+        "detail": "programs.p05",
+        "documentation": {}
+    },
+    {
+        "label": "w",
+        "kind": 5,
+        "importPath": "programs.p05",
+        "description": "programs.p05",
+        "peekOfCode": "w = int(input())\nprint(\"YES\" if w%2==0 and w>2 else \"NO\")",
+        "detail": "programs.p05",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "programs.po2",
+        "description": "programs.po2",
+        "peekOfCode": "a = [10,2,4,5,2,6,9]\nb=len(a)\nnum = 1\nfor i in range(b//2):\n    a[i],a[b-num] = a[b-num],a[i]\n    num=num+1\nprint(a)",
+        "detail": "programs.po2",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "programs.po2",
+        "description": "programs.po2",
+        "peekOfCode": "num = 1\nfor i in range(b//2):\n    a[i],a[b-num] = a[b-num],a[i]\n    num=num+1\nprint(a)",
+        "detail": "programs.po2",
+        "documentation": {}
+    }
+]
