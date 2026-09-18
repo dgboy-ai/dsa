@@ -8,7 +8,7 @@
 """
 n = int(input("enter range: "))
 for i in range(n):
-    num=1+i
+    num=n
     for j in range(n-1,i,-1):
         print(" ",end=" ")
     
