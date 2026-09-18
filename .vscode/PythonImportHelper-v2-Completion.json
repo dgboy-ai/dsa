@@ -117,6 +117,15 @@
         "documentation": {}
     },
     {
+        "label": "n",
+        "kind": 5,
+        "importPath": "programs.day 8.day8_3",
+        "description": "programs.day 8.day8_3",
+        "peekOfCode": "n = int(input(\"enter range: \"))\nfor i in range(n):\n    num=1+i\n    for j in range(n-1,i,-1):\n        print(\" \",end=\" \")\n    for k in range(i+1):\n        print(num,end=\" \")\n        num=num-1\n    print()",
+        "detail": "programs.day 8.day8_3",
+        "documentation": {}
+    },
+    {
         "label": "x",
         "kind": 5,
         "importPath": "programs.itm_training.q",
