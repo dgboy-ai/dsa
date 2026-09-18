@@ -72,21 +72,66 @@
         "documentation": {}
     },
     {
-        "label": "x",
+        "label": "letter",
         "kind": 5,
-        "importPath": "programs.day 6.q",
-        "description": "programs.day 6.q",
-        "peekOfCode": "x = int(input(\"Enter range: \"))\nif x<2:\n    print('invalid')\nelse:\n    for i in range(1,x+1):\n        for j in range(2,i):\n            if i%j==0:\n                print(i)\n                break\n            else:",
-        "detail": "programs.day 6.q",
+        "importPath": "programs.day 7.day7_2",
+        "description": "programs.day 7.day7_2",
+        "peekOfCode": "letter = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\nfor i in range(5):\n    for j in range(i+1):\n        print(letter[j],end=\" \")\n    print()",
+        "detail": "programs.day 7.day7_2",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "kind": 5,
+        "importPath": "programs.day 7.day7_4",
+        "description": "programs.day 7.day7_4",
+        "peekOfCode": "letter = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\nfor i in range(4):\n    num=0\n    for j in range(4,i,-1):\n        print(letter[num],end=\" \")\n        num+=1\n    print()",
+        "detail": "programs.day 7.day7_4",
         "documentation": {}
     },
     {
         "label": "n",
         "kind": 5,
-        "importPath": "programs.day 6.q2",
-        "description": "programs.day 6.q2",
+        "importPath": "programs.day 8.day8_1",
+        "description": "programs.day 8.day8_1",
+        "peekOfCode": "n = int(input(\"enter range: \"))\nfor i in range(n):\n    num=1+i\n    for j in range(n-1,i,-1):\n        print(\" \",end=\" \")\n    for k in range(i+1):\n        print(num,end=\" \")\n        num=num-1\n    print()",
+        "detail": "programs.day 8.day8_1",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "programs.day 8.day8_2",
+        "description": "programs.day 8.day8_2",
+        "peekOfCode": "n = int(input(\"enter range: \"))\nletter = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\nfor i in range(n):\n    for j in range(n-1,i,-1):\n        print(\" \",end=\" \")\n    for k in range(i+1):\n        print(letter[i],end=\" \")\n    print()",
+        "detail": "programs.day 8.day8_2",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "kind": 5,
+        "importPath": "programs.day 8.day8_2",
+        "description": "programs.day 8.day8_2",
+        "peekOfCode": "letter = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\nfor i in range(n):\n    for j in range(n-1,i,-1):\n        print(\" \",end=\" \")\n    for k in range(i+1):\n        print(letter[i],end=\" \")\n    print()",
+        "detail": "programs.day 8.day8_2",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "programs.itm_training.q",
+        "description": "programs.itm_training.q",
+        "peekOfCode": "x = int(input(\"Enter range: \"))\nif x<2:\n    print('invalid')\nelse:\n    for i in range(1,x+1):\n        for j in range(2,i):\n            if i%j==0:\n                print(i)\n                break\n            else:",
+        "detail": "programs.itm_training.q",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "programs.itm_training.q2",
+        "description": "programs.itm_training.q2",
         "peekOfCode": "n = int(input(\"Enter a number: \"))\ncount_prime=0\ncount_com=0\nwhile n>0:\n    num = n%10\n    if num==2:\n        count_prime+=1\n    else:\n        for i in range(2,num):\n            if num%i==0:",
-        "detail": "programs.day 6.q2",
+        "detail": "programs.itm_training.q2",
         "documentation": {}
     },
     {
@@ -213,6 +258,24 @@
         "description": "programs.p05",
         "peekOfCode": "w = int(input())\nprint(\"YES\" if w%2==0 and w>2 else \"NO\")",
         "detail": "programs.p05",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "programs.p06",
+        "description": "programs.p06",
+        "peekOfCode": "a = [2,3,4,7,11,12]\nc=a[-1]\nb = []\nk=int(input(\"Enter value of kth element to find: \"))\nfor i in range(1,c):\n    if i in a:\n        continue\n    else:\n        b.append(i)\nprint(b[k])",
+        "detail": "programs.p06",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "programs.p06",
+        "description": "programs.p06",
+        "peekOfCode": "b = []\nk=int(input(\"Enter value of kth element to find: \"))\nfor i in range(1,c):\n    if i in a:\n        continue\n    else:\n        b.append(i)\nprint(b[k])",
+        "detail": "programs.p06",
         "documentation": {}
     },
     {

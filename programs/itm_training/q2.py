@@ -18,5 +18,5 @@ while n>0:
             else:
                 continue
     n//=10
-print(count_prime)
-print(count_com)
+print(f"Prime Numbers: {count_prime}")
+print(f"Composite Numbers: {count_com}")
