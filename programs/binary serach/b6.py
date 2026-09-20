@@ -1,4 +1,4 @@
-#First Occurance Finder
+#count Occurance Finder
 a = [2,4,6,6,6,7,7,7,8,8,8,9]
 target = int(input("ENter element to search: "))
 found= False
