@@ -4,7 +4,7 @@ a = [1,0,1,0,1,0,10]
 start = 0
 end = len(a)-1
 
-for i in range(len(a)):
+for i in range(len(a)//2):
     if a[end]==0:
             start = start + 1
             end = end - 1
