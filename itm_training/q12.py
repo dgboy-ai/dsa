@@ -6,3 +6,8 @@ class Solution:
             if nums[i] != 0:
                 nums[start], nums[i] = nums[i], nums[start]
                 start += 1
+                
+                
+                
+                
+                
